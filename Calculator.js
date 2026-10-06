@@ -12,3 +12,8 @@ var Calculator = {
         return num2 && num1/num2;
     }
 };
+
+// Allow the calculator to be loaded from Node.js (npm test) without breaking the browser usage
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = Calculator;
+}
