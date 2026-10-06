@@ -1,5 +1,8 @@
 # unit-test-javascript
 
+[![CI](https://github.com/estefafdez/unit-test-javascript/actions/workflows/ci.yml/badge.svg)](https://github.com/estefafdez/unit-test-javascript/actions/workflows/ci.yml)
+![Coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Festefafdez%2Funit-test-javascript%2Fbadges%2Fcoverage.json)
+
 Example of a simple project with unit tests using JavaScript and [Jasmine](https://jasmine.github.io/). The tests cover a small calculator (`Calculator.js`) with add, subtract, multiply and divide.
 
 ## Requirements
@@ -23,7 +26,7 @@ The specs live in `spec/` and are configured in `spec/support/jasmine.json`. The
 npm run test:coverage
 ```
 
-This runs the specs with [c8](https://github.com/bcoe/c8) and prints the coverage of `Calculator.js` in the terminal. An HTML report is written to `coverage/lcov-report/index.html`.
+This runs the specs with [c8](https://github.com/bcoe/c8) and prints the coverage of `Calculator.js` in the terminal. An HTML report is written to `coverage/lcov-report/index.html`. CI also posts the test results as a comment on each pull request and updates the coverage badge above on every push to `main`.
 
 ## Run the tests in the browser
 
