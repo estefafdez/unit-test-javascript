@@ -34,6 +34,7 @@ Open `index.html` in a browser. It loads Jasmine from a CDN, then `Calculator.js
 ```
 Calculator.js            # Code under test
 spec/test.spec.js        # Jasmine specs
+spec/calculator.examples.spec.js  # Fixed-value, data-driven and spy examples
 spec/helpers/            # Helpers loaded before the specs when running with Node.js
 spec/support/jasmine.json
 index.html               # Browser test runner
