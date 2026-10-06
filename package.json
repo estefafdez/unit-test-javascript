@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/estefafdez/unit-test-javascript#readme",
   "devDependencies": {
-    "jasmine": "^3.6.3"
+    "jasmine": "^7.0.0"
   }
 }
