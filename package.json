@@ -4,7 +4,8 @@
   "description": "Example of a simple project with unit test using JavaScript",
   "main": "Calculator.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "test:coverage": "c8 --include=Calculator.js --reporter=text --reporter=lcov jasmine"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/estefafdez/unit-test-javascript#readme",
   "devDependencies": {
+    "c8": "^12.0.0",
     "jasmine": "^7.0.0"
   }
 }
