@@ -5,7 +5,7 @@
   "main": "Calculator.js",
   "scripts": {
     "test": "jasmine",
-    "test:coverage": "c8 --include=Calculator.js --reporter=text --reporter=lcov jasmine"
+    "test:coverage": "c8 --include=Calculator.js --reporter=text --reporter=lcov --reporter=json-summary jasmine"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/estefafdez/unit-test-javascript#readme",
   "devDependencies": {
     "c8": "^12.0.0",
-    "jasmine": "^7.0.0"
+    "jasmine": "^7.0.0",
+    "jasmine-reporters": "^2.5.2"
   }
 }
